@@ -1,0 +1,7 @@
+# prevent bootloop
+ro.control_privapp_permissions=log
+
+# prop
+ro.opa.eligible_device=true
+
+

@@ -1,0 +1,2 @@
+# debug
+allow system_server system_file file write
