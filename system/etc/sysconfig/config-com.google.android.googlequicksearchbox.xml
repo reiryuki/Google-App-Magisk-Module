@@ -1,1 +1,7 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <system-user-blacklisted-app package="com.google.android.googlequicksearchbox"/>
+    <app-link package="com.google.android.googlequicksearchbox"/>
+    <initial-package-state package="com.google.android.googlequicksearchbox" stopped="false"/>
+    <hidden-api-whitelisted-app package="com.google.android.googlequicksearchbox"/>
+</config>
