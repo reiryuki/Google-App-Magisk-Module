@@ -1,1 +1,8 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <feature name="com.google.android.googlequicksearchbox.SMARTSPACE_DEVICE_FEATURE"/>
+    <feature name="com.google.android.googlequicksearchbox.OEM_SMARTSPACE_WIDGET"/>
+    <feature name="com.google.android.googlequicksearchbox.OEM_AOD_SMARTSPACE"/>
+    <feature name="com.google.android.googlequicksearchbox.AMBIENT_DISPLAY_CHIPS"/>
+    <feature name="com.google.android.googlequicksearchbox.AMB_DEVICE_INTEGRATION"/>
+</permissions>
