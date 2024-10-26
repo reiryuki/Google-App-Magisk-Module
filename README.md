@@ -19,10 +19,10 @@
 - https://t.me/ryukinotes/23
 
 ## Requirements
-- ARM64 is for arm64-v8a architecture
-- ARM is for armeabi-v7a architecture
-- X64 is for x86_64 architecture
-- X86 is for x86 architecture
+- arm64-v8a is for arm64-v8a architecture
+- armeabi-v7a is for armeabi-v7a architecture
+- x86_64 is for x86_64 architecture
+- x86 is for x86 architecture
 - Min29 is for SDK 29 and up
 - Min28 is for SDK 28 and up
 - GApps installed
@@ -36,10 +36,10 @@
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (and your home launcher app also) (enable show system apps) and reboot afterwards
 
 ## Optionals
-- Global: https://t.me/androidryukimodsdiscussions/60861
+- Global: https://t.me/ryukinotes/35
 
 ## Troubleshootings
-- Global: https://t.me/androidryukimodsdiscussions/29836
+- Global: https://t.me/ryukinotes/34
 
 ## Support & Bug Report
 - https://t.me/androidryukimodsdiscussions/2618
@@ -51,6 +51,6 @@
 - You can contribute ideas about this Magisk Module here: https://t.me/androidappsportdevelopment
 
 ## Sponsors
-- https://t.me/androidryukimodsdiscussions/2619
+- https://t.me/ryukinotes/25
 
 
