@@ -1,7 +1,7 @@
 id=GoogleApp
 name=Google App
-version=v0.4
-versionCode=4
+version=v0.5
+versionCode=5
 author=Rei Ryuki the Fixer
 description=Quick search box and assistant app (com.google.android.googlequicksearchbox) by Google LLC.
 

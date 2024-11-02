@@ -8,7 +8,7 @@
 - Quick search box and assistant app by Google LLC integrated as a Magisk Module for all supported and rooted devices with Magisk
 - Enables Gemini in Google App if it's not available yet in your device
 - Enables Hey Google & Voice Match in Google App if it's not available yet in your device
-- WARNING!!! Hey Google & Voice Match consumes very high RAM. I don't recommend to activate Hey Google & Voice Match on devices with RAM lower than 3 GiB, otherwise you will get more lag and even freezing.
+- WARNING!!! Hey Google & Voice Match consumes very high RAM. I don't recommend to activate Hey Google & Voice Match on devices with RAM lower than 3 GiB, otherwise you will get more lags and even freezing.
 - Enables several other features in Google App
 - Compatibility is not guaranteed
 
