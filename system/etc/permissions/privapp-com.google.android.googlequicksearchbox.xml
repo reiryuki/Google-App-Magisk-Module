@@ -27,6 +27,8 @@
         <permission name="android.permission.WRITE_DREAM_STATE"/>
         <permission name="android.permission.QUERY_USERS"/>
         <permission name="android.permission.CAPTURE_MEDIA_OUTPUT"/>
+        <permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+        <permission name="android.permission.GLOBAL_SEARCH"/>
         <!-- Android 11 and bellow -->
         <permission name="android.permission.INTERACT_ACROSS_PROFILES"/>
         <!-- Not added yet in AndroidManifest.xml -->
