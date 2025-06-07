@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <permissions>
     <privapp-permissions package="com.google.android.googlequicksearchbox">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
         <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.CALL_PRIVILEGED"/>
@@ -33,8 +34,6 @@
         <permission name="android.permission.INTERACT_ACROSS_PROFILES"/>
         <!-- Not added yet in AndroidManifest.xml -->
         <permission name="android.permission.MANAGE_ONGOING_CALLS"/>
-        <permission name="android.permission.WRITE_MEDIA_IMAGES"/>
-        <permission name="android.permission.WRITE_MEDIA_VIDEO"/>
         <permission name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
     </privapp-permissions>
 </permissions>
