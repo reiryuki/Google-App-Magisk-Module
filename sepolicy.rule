@@ -1,2 +1,7 @@
 # debug
 allow system_server system_file file write
+
+# file
+allow { system_app platform_app priv_app untrusted_app_29 untrusted_app_27 untrusted_app } bluetooth_prop file open
+
+
