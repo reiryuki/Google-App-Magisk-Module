@@ -26,12 +26,12 @@
 - Min29 is for SDK 29 and up
 - Min28 is for SDK 28 and up
 - GApps installed
-- Magisk or KernelSU installed
+- Magisk or Kitsune Mask or KernelSU or Apatch installed
 
 ## Installation Guide & Download Link
+- If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs first
 - Download the right module according to your device architecture and Android version here: https://www.pling.com/p/2195857/
-- Install the module via Magisk app or KernelSU app or Recovery if Magisk installed
-- If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings
+- Install the module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (and your home launcher app also) (enable show system apps) and reboot afterwards
 

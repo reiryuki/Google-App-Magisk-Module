@@ -26,11 +26,12 @@ PKGS="`cat $MODPATH/package.txt`
       com.google.android.googlequicksearchbox:afw
       com.google.android.googlequicksearchbox:primes_lifeboat
       com.google.android.googlequicksearchbox:client_logging
-      com.google.android.googlequicksearchbox:trusted_disable_art_image_
       com.google.android.googlequicksearchbox:trusted
       com.google.android.googlequicksearchbox:googleapp
       com.google.android.googlequicksearchbox:train
-      com.google.android.googlequicksearchbox:ar_runtime_loader"
+      com.google.android.googlequicksearchbox:learning_bg
+      com.google.android.googlequicksearchbox:trusted_disable_art_image_:com.google.android.apps.gsa.hotword.hotworddetectionservice.GsaHotwordDetectionService
+      com.google.android.googlequicksearchbox:ar_runtime_loader:com.google.ar.imp.view.ipc.LoaderService"
 for PKG in $PKGS; do
   magisk --denylist rm $PKG 2>/dev/null
   magisk --sulist add $PKG 2>/dev/null
@@ -53,6 +54,7 @@ if appops get $PKG > /dev/null 2>&1; then
   appops set $PKG WRITE_MEDIA_VIDEO allow
   appops set $PKG MANAGE_ONGOING_CALLS allow
   appops set $PKG GET_USAGE_STATS allow
+  appops set $PKG SYSTEM_ALERT_WINDOW allow
   if [ "$API" -ge 30 ]; then
     appops set $PKG MANAGE_EXTERNAL_STORAGE allow
     appops set $PKG NO_ISOLATED_STORAGE allow
