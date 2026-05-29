@@ -146,7 +146,7 @@ if ! echo "$ABILIST" | grep -q $NAME; then
 fi
 
 # sdk
-NUM=29
+NUM=30
 if [ "$API" -lt $NUM ]; then
   ui_print "! Unsupported SDK $API."
   ui_print "  You have to upgrade your Android version"
@@ -197,7 +197,8 @@ for NAME in $NAMES; do
    /persist/magisk/$NAME\
    /data/unencrypted/magisk/$NAME\
    /cache/magisk/$NAME\
-   /cust/magisk/$NAME
+   /cust/magisk/$NAME\
+   /klogdump/magisk/$NAME
 done
 }
 

@@ -13,32 +13,81 @@
 - Compatibility is not guaranteed
 
 ## Sources
-- https://apkmirror.com com.google.android.googlequicksearchbox by Google LLC
+https://apkmirror.com com.google.android.googlequicksearchbox by Google LLC
+
+## Changelog
+
+v0.9
+- Update apk version 17.16.22 in Minimum SDK 30
+- Fix CONTROL_DEVICE_LIGHTS & ACCESS_CONTEXT_HUB permission
+- Activates com.google.android.feature.PIXEL_2026_EXPERIENCE, com.google.android.feature.GEMINI_EXPERIENCE, com.google.android.feature.GEMINI_POWER_MENU, com.google.android.feature.NEXT_GENERATION_ASSISTANT, com.google.lens.feature.CAMERA_INTEGRATION, and com.google.lens.feature.IMAGE_INTEGRATION
+
+v0.8
+- Update apk version 17.4.67
+- Activates com.google.android.feature.AMBIENT_DATA and com.google.android.feature.CONTEXTUAL_SEARCH_LIVE_TRANSLATE
+- Abort installation if fail to mount mirror system
+- Fix magiskhide/zygisk list
+- Fix permission
+
+v0.7
+- Add Action button to clear app caches
+- Fix bug in uninstall.sh
+- Fix selinux denials
+- Fix extract libs
+- Activates com.google.android.feature.PIXEL_2025_EXPERIENCE
+- Update apk version
+
+v0.6
+- Fix permissions
+- Activates com.android.systemui.SUPPORTS_DRAG_ASSISTANT_TO_SPLIT and com.google.android.feature.DSE_CHOICE_SCREEN
+
+v0.5
+- Fix call and SMS Assistant command (Remove com.google.android.feature.PIXEL_TABLET_2023_EXPERIENCE.xml)
+- Update Google App version to 15.43.37
+
+v0.4
+- Android Emulator support
+
+v0.3
+- Fix xml bug
+
+v0.2
+- Add Google app
+- Change module name
+
+v0.1
+- Initial release
 
 ## Screenshots
-- https://t.me/ryukinotes/23
+https://t.me/ryukinotes/23
 
 ## Requirements
-- arm64-v8a is for arm64-v8a architecture
-- armeabi-v7a is for armeabi-v7a architecture
-- x86_64 is for x86_64 architecture
-- x86 is for x86 architecture
-- Min29 is for SDK 29 and up
-- Min28 is for SDK 28 and up
 - GApps installed
 - Magisk or Kitsune Mask or KernelSU or Apatch installed
 
 ## Installation Guide & Download Link
-- If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs first
-- Download the right module according to your device architecture and Android version here: https://www.pling.com/p/2195857/
+- If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount first depending on ROM compatibility
+- Download the right module according to your device architecture and Android version:
+  • arm64-v8a Minimum SDK 30:
+  • arm64-v8a Minimum SDK 29:
+  • arm64-v8a + dummy armeabi-v7a Minimum SDK 30:
+  • arm64-v8a + dummy armeabi-v7a Minimum SDK 28:
+  • armeabi-v7a Minimum SDK 30:
+  • armeabi-v7a Minimum SDK 28:
+  • x86_64 Minimum SDK 30:
+  • x86_64 Minimum SDK 28:
+  • x86 Minimum SDK 30:
+  • x86 Minimum SDK 28:
 - Install the module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (and your home launcher app also) (enable show system apps) and reboot afterwards
+- For Android 16 & 17 (SDK 36 & 37), you can normal install com.google.android.googlequicksearchbox.nga_resources also: https://www.apkmirror.com/apk/google-inc/com-google-android-googlequicksearchbox-nga_resources/ if it's not available yet in your ROM to optimize the Assistant feature.
 
 ## Optionals
-- Global: https://t.me/ryukinotes/35
+Global: https://t.me/ryukinotes/35
 
 ## Troubleshootings
+- If Gemini does not appear while long pressing home/power button, then open Google App > tap top right corner > Settings > Gemini > Digital Assistant from Google > re-set Gemini
 - Global: https://t.me/ryukinotes/34
 
 ## Support & Bug Report
@@ -51,6 +100,6 @@
 - You can contribute ideas about this Magisk Module here: https://t.me/androidappsportdevelopment
 
 ## Sponsors
-- https://t.me/ryukinotes/25
+https://t.me/ryukinotes/25
 
 
