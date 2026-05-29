@@ -21,6 +21,7 @@ v0.9
 - Update apk version 17.16.22 in Minimum SDK 30
 - Fix CONTROL_DEVICE_LIGHTS & ACCESS_CONTEXT_HUB permission
 - Activates com.google.android.feature.PIXEL_2026_EXPERIENCE, com.google.android.feature.GEMINI_EXPERIENCE, com.google.android.feature.GEMINI_POWER_MENU, com.google.android.feature.NEXT_GENERATION_ASSISTANT, com.google.lens.feature.CAMERA_INTEGRATION, and com.google.lens.feature.IMAGE_INTEGRATION
+- Set install-in-user-type config
 
 v0.8
 - Update apk version 17.4.67
