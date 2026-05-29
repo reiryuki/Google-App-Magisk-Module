@@ -4,4 +4,10 @@
     <app-link package="com.google.android.googlequicksearchbox"/>
     <initial-package-state package="com.google.android.googlequicksearchbox" stopped="false"/>
     <hidden-api-whitelisted-app package="com.google.android.googlequicksearchbox"/>
+    <install-in-user-type package="com.google.android.googlequicksearchbox">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+        <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+    </install-in-user-type>
 </config>
