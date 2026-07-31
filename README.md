@@ -69,13 +69,13 @@ https://t.me/ryukinotes/23
 ## Installation Guide & Download Link
 - If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount first depending on ROM compatibility
 - Download the right module according to your device architecture and Android version:
-  - arm64-v8a Minimum SDK 30: https://devuploads.com/qr9k97drlh4s
-  - arm64-v8a Minimum SDK 29: https://devuploads.com/z7zfhzmohiii
-  - arm64-v8a + dummy armeabi-v7a Minimum SDK 30: https://devuploads.com/xb48iw4z6ocv
-  - arm64-v8a + dummy armeabi-v7a Minimum SDK 28: https://devuploads.com/ygeile23vz7n
-  - armeabi-v7a Minimum SDK 30: https://devuploads.com/9pb1v3l0whpq
+  - arm64-v8a Minimum SDK 30: https://bicolink.com/Be1RRv
+  - arm64-v8a Minimum SDK 29: https://bicolink.com/bm4LZhV
+  - arm64-v8a + dummy armeabi-v7a Minimum SDK 30: https://bicolink.com/C4xlUcCS
+  - arm64-v8a + dummy armeabi-v7a Minimum SDK 28: https://bicolink.com/kSi6Tz1
+  - armeabi-v7a Minimum SDK 30: https://bicolink.com/kS7QI
   - armeabi-v7a Minimum SDK 28: https://devuploads.com/o5g694oxfqqq
-  - x86_64 Minimum SDK 30: https://devuploads.com/ulg1pgm7lr8m
+  - x86_64 Minimum SDK 30: https://bicolink.com/8CTtmW
   - x86_64 Minimum SDK 28: https://devuploads.com/yo2aw648hs1i
   - x86 Minimum SDK 30: https://devuploads.com/4o1pasxih0w3
   - x86 Minimum SDK 28: https://devuploads.com/0c8gyjysl70q
@@ -83,6 +83,9 @@ https://t.me/ryukinotes/23
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (and your home launcher app also) (enable show system apps) and reboot afterwards
 - For Android 16 & 17 (SDK 36 & 37), you can normal install com.google.android.googlequicksearchbox.nga_resources also: https://www.apkmirror.com/apk/google-inc/com-google-android-googlequicksearchbox-nga_resources/ if it's not available yet in your ROM to optimize the Assistant feature.
+
+## Download Tutorial
+https://t.me/ryukinotes/97
 
 ## Optionals
 Global: https://t.me/ryukinotes/35
