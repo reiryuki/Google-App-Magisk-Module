@@ -74,11 +74,11 @@ https://t.me/ryukinotes/23
   - arm64-v8a + dummy armeabi-v7a Minimum SDK 30: https://bicolink.com/C4xlUcCS
   - arm64-v8a + dummy armeabi-v7a Minimum SDK 28: https://bicolink.com/kSi6Tz1
   - armeabi-v7a Minimum SDK 30: https://bicolink.com/kS7QI
-  - armeabi-v7a Minimum SDK 28: https://devuploads.com/o5g694oxfqqq
+  - armeabi-v7a Minimum SDK 28: (Please tell me if you need it)
   - x86_64 Minimum SDK 30: https://bicolink.com/8CTtmW
-  - x86_64 Minimum SDK 28: https://devuploads.com/yo2aw648hs1i
-  - x86 Minimum SDK 30: https://devuploads.com/4o1pasxih0w3
-  - x86 Minimum SDK 28: https://devuploads.com/0c8gyjysl70q
+  - x86_64 Minimum SDK 28: (Please tell me if you need it)
+  - x86 Minimum SDK 30: (Please tell me if you need it)
+  - x86 Minimum SDK 28: (Please tell me if you need it)
 - Install the module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (and your home launcher app also) (enable show system apps) and reboot afterwards
