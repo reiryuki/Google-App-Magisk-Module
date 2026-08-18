@@ -72,7 +72,7 @@ https://t.me/ryukinotes/23
   - arm64-v8a Minimum SDK 30: https://bicolink.com/Be1RRv
   - arm64-v8a Minimum SDK 29: https://bicolink.com/bm4LZhV
   - arm64-v8a + dummy armeabi-v7a Minimum SDK 30: https://bicolink.com/C4xlUcCS
-  - arm64-v8a + dummy armeabi-v7a Minimum SDK 28: https://bicolink.com/kSi6Tz1
+  - arm64-v8a + dummy armeabi-v7a Minimum SDK 28: https://bicolink.com/FNGpsIN0
   - armeabi-v7a Minimum SDK 30: https://bicolink.com/kS7QI
   - armeabi-v7a Minimum SDK 28: https://bicolink.com/sMJf2OOWcs
   - x86_64 Minimum SDK 30: https://bicolink.com/8CTtmW
