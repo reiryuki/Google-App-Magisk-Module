@@ -74,16 +74,16 @@ https://t.me/ryukinotes/23
 ## Installation Guide & Download Link
 - If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount or https://github.com/maxsteeel/nomount first depending on ROM compatibility
 - Download the right module according to your device architecture and Android version:
-  - arm64-v8a Minimum SDK 30: https://github.com/reiryuki/Google-App-Magisk-Module
-  - arm64-v8a Minimum SDK 29: https://github.com/reiryuki/Google-App-Magisk-Module
-  - arm64-v8a + dummy armeabi-v7a Minimum SDK 30: https://github.com/reiryuki/Google-App-Magisk-Module
-  - arm64-v8a + dummy armeabi-v7a Minimum SDK 28: https://github.com/reiryuki/Google-App-Magisk-Module
-  - armeabi-v7a Minimum SDK 30: https://github.com/reiryuki/Google-App-Magisk-Module
-  - armeabi-v7a Minimum SDK 28: https://github.com/reiryuki/Google-App-Magisk-Module
-  - x86_64 Minimum SDK 30: https://github.com/reiryuki/Google-App-Magisk-Module
-  - x86_64 Minimum SDK 28: https://github.com/reiryuki/Google-App-Magisk-Module
-  - x86 Minimum SDK 30: https://github.com/reiryuki/Google-App-Magisk-Module
-  - x86 Minimum SDK 28: https://github.com/reiryuki/Google-App-Magisk-Module
+  - arm64-v8a Minimum SDK 30: https://bicolink.com/LdgaajsLOH
+  - arm64-v8a Minimum SDK 29: https://bicolink.com/qZwYZYs
+  - arm64-v8a + dummy armeabi-v7a Minimum SDK 30: https://bicolink.com/W0A9fR0
+  - arm64-v8a + dummy armeabi-v7a Minimum SDK 28: https://bicolink.com/LzBLkS
+  - armeabi-v7a Minimum SDK 30: https://bicolink.com/Bf3kucO
+  - armeabi-v7a Minimum SDK 28: https://bicolink.com/ZETsL
+  - x86_64 Minimum SDK 30: https://bicolink.com/QQ3EEPGg
+  - x86_64 Minimum SDK 28: https://bicolink.com/ZuUc
+  - x86 Minimum SDK 30: https://bicolink.com/evYnTyo9
+  - x86 Minimum SDK 28: https://bicolink.com/IWOjvxRUrj
 - Install the module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (and your home launcher app also) (enable show system apps) and reboot afterwards
