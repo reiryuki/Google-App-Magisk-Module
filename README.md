@@ -17,6 +17,9 @@ https://apkmirror.com com.google.android.googlequicksearchbox by Google LLC
 
 ## Changelog
 
+v1.0
+- Prepare directories in /storage/emulated/"$UID"/Android/data/com.google.android.googlequicksearchbox/
+
 v0.9
 - Update apk version 17.16.22 in Minimum SDK 30
 - Fix CONTROL_DEVICE_LIGHTS & ACCESS_CONTEXT_HUB permission
@@ -67,18 +70,18 @@ https://t.me/ryukinotes/23
 - Magisk or Kitsune Mask or KernelSU or Apatch installed
 
 ## Installation Guide & Download Link
-- If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount first depending on ROM compatibility
+- If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount or https://github.com/maxsteeel/nomount first depending on ROM compatibility
 - Download the right module according to your device architecture and Android version:
-  - arm64-v8a Minimum SDK 30: https://bicolink.com/Be1RRv
-  - arm64-v8a Minimum SDK 29: https://bicolink.com/bm4LZhV
-  - arm64-v8a + dummy armeabi-v7a Minimum SDK 30: https://bicolink.com/C4xlUcCS
-  - arm64-v8a + dummy armeabi-v7a Minimum SDK 28: https://bicolink.com/FNGpsIN0
-  - armeabi-v7a Minimum SDK 30: https://bicolink.com/kS7QI
-  - armeabi-v7a Minimum SDK 28: https://bicolink.com/sMJf2OOWcs
-  - x86_64 Minimum SDK 30: https://bicolink.com/8CTtmW
-  - x86_64 Minimum SDK 28: https://bicolink.com/8yLYAVZgr
-  - x86 Minimum SDK 30: https://bicolink.com/cT5qvZTms
-  - x86 Minimum SDK 28: https://bicolink.com/Rb3WUu
+  - arm64-v8a Minimum SDK 30: https://github.com/reiryuki/Google-App-Magisk-Module
+  - arm64-v8a Minimum SDK 29: https://github.com/reiryuki/Google-App-Magisk-Module
+  - arm64-v8a + dummy armeabi-v7a Minimum SDK 30: https://github.com/reiryuki/Google-App-Magisk-Module
+  - arm64-v8a + dummy armeabi-v7a Minimum SDK 28: https://github.com/reiryuki/Google-App-Magisk-Module
+  - armeabi-v7a Minimum SDK 30: https://github.com/reiryuki/Google-App-Magisk-Module
+  - armeabi-v7a Minimum SDK 28: https://github.com/reiryuki/Google-App-Magisk-Module
+  - x86_64 Minimum SDK 30: https://github.com/reiryuki/Google-App-Magisk-Module
+  - x86_64 Minimum SDK 28: https://github.com/reiryuki/Google-App-Magisk-Module
+  - x86 Minimum SDK 30: https://github.com/reiryuki/Google-App-Magisk-Module
+  - x86 Minimum SDK 28: https://github.com/reiryuki/Google-App-Magisk-Module
 - Install the module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Reboot
 - If you are using KernelSU, you need to allow superuser list manually all package name listed in package.txt (and your home launcher app also) (enable show system apps) and reboot afterwards
@@ -101,7 +104,7 @@ Global: https://t.me/ryukinotes/35
 ## Credits and Contributors
 - @HuskyDG
 - https://t.me/androidryukimodsdiscussions
-- You can contribute ideas about this Magisk Module here: https://t.me/androidappsportdevelopment
+- https://t.me/androidappsportdevelopment
 
 ## Sponsors
 https://t.me/ryukinotes/25

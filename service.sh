@@ -48,7 +48,7 @@ fi
 
 # grant
 PKG=com.google.android.googlequicksearchbox
-if appops get $PKG > /dev/null 2>&1; then
+if appops get $PKG >/dev/null 2>&1; then
   appops set $PKG LEGACY_STORAGE allow
   appops set $PKG WRITE_MEDIA_IMAGES allow
   appops set $PKG WRITE_MEDIA_VIDEO allow
@@ -63,7 +63,7 @@ if appops get $PKG > /dev/null 2>&1; then
     appops set $PKG ACCESS_RESTRICTED_SETTINGS allow
   fi
   PKGOPS=`appops get $PKG`
-  UID=`dumpsys package $PKG 2>/dev/null | grep -m 1 Id= | sed -e 's|    userId=||g' -e 's|    appId=||g'`
+  UID=`grep "^$PKG " /data/system/packages.list | awk '{print $2}'`
   if [ "$UID" ] && [ "$UID" -gt 9999 ]; then
     appops set --uid "$UID" LEGACY_STORAGE allow
     appops set --uid "$UID" SCHEDULE_EXACT_ALARM allow

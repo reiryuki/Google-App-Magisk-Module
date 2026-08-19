@@ -160,8 +160,8 @@ fi
 # recovery
 mount_partitions_in_recovery
 
-# magisk
-magisk_setup
+# mirror
+mirror_setup
 
 # path
 SYSTEM=`realpath $MIRROR/system`
@@ -335,6 +335,16 @@ hide_app
 # unmount
 unmount_mirror
 
+# prepare
+PKG=com.google.android.googlequicksearchbox
+DIR=/storage/emulated/"$UID"/Android/data/$PKG/files
+DIR2=/storage/emulated/"$UID"/Android/data/$PKG/cache
+ui_print "- Creating directories:"
+ui_print "  $DIR"
+mkdir -p $DIR
+ui_print "  $DIR2"
+mkdir -p $DIR2
+ui_print " "
 
 
 
