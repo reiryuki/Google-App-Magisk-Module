@@ -19,6 +19,8 @@ https://apkmirror.com com.google.android.googlequicksearchbox by Google LLC
 
 v1.0
 - Prepare directories in /storage/emulated/"$UID"/Android/data/com.google.android.googlequicksearchbox/
+- Resets module folders/files permissions at post-fs-data
+- Move _uninstall.log to /data/adb/logs/
 
 v0.9
 - Update apk version 17.16.22 in Minimum SDK 30
